@@ -1,0 +1,29 @@
+body {
+	margin-left: 100px;
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png);
+}
+
+p {
+	font-size: 25px;
+	padding: 10px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 32px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+h2 {
+	padding: 10px;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-right: 15px;
+}
