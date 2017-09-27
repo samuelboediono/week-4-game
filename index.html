@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Crystal Game</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>CrystalsCollector!</h1>
+  </div>
+
+  <div class="directions">
+    <p>You will be given a random number at the start of the game.</p>
+
+    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+
+  <div class="computerNumber">
+    <h2><span id="numberDisplay">Computer's Number: </span></h2>
+  </div>
+
+  <div class="userDisplay">
+    <h2><span id="totalScore">Your Score: </span></h2>
+  </div>
+
+  <div class="images">
+    <img class="bluecrystal" id="one" src="assets/images/bluecrystal.jpg">
+
+    <img class="redcrystal" id="two" src="assets/images/redcrystal.jpg">
+
+    <img class="yellowcrystal" id="three" src="assets/images/yellowcrystal.jpg">
+
+    <img class="greencrystal" id="four" src="assets/images/greencrystal.JPG">
+  </div>
+
+  <div class="winsandlosses">
+    <h2><span id="winDisplay">Wins: </span></h2>
+    <br>
+    <h2><span id="lossesDisplay">Losses: </span></h2>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</body>
+
+</html>
+
+
